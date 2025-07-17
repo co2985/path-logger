@@ -52,8 +52,6 @@ path-logger/
 
 🧪 実行方法
 
-🖥️ ターミナル実行モード（開発者・PC利用向け）
-
 1. 必要ライブラリをインストール：
 
 pip install flask folium pandas gpxpy
@@ -62,20 +60,15 @@ pip install flask folium pandas gpxpy
 
 3. 以下を順番に実行：
 
-python3 run_all.py       # gpx→csv変換 & 地図HTML生成
-python3 app.py           # Flaskアプリ起動
-
-4. ブラウザで以下にアクセス：
-
-http://localhost:5000/
+python3 run_all.py       ## gpx→csv変換 & 地図HTML生成 ##
 
 📱 ブラウザ実行モード（ユーザー向け簡易操作）
 
-1. 上記と同様に python3 app.py を起動すると、Webアプリとして動作します。
+1. python3 app.py       ## 起動すると、Webアプリとして動作します。 ##
 
-2. スマホやPCからブラウザで http://localhost:5000/ にアクセス
+2. スマホやPCからブラウザで http://127.0.0.1:5000 にアクセス
 
-3. .gpx ファイルをブラウザ上でアップロード
+3. 画面の指示に従って.gpx ファイルを選択し、アップロードを押す
 
 4. 通過ルートが地図上に表示されます
 
